@@ -6,6 +6,7 @@
 
 using namespace nvcuda;
 
+constexpr int GEMM_BLOCK_N = 64;
 constexpr int GEMM_BLOCK_K = 128;
 constexpr int GEMM_PAD_K   = 8;
 constexpr int GEMM_STRIDE_K = GEMM_BLOCK_K + GEMM_PAD_K; 
