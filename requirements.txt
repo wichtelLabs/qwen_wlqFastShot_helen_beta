@@ -1,0 +1,17 @@
+transformers
+datasets
+safetensors
+accelerate
+sentencepiece
+protobuf
+einops
+numpy
+cython
+setuptools
+triton
+lm_eval
+ninja
+packaging
+wheel
+huggingface_hub
+numba
